@@ -8,6 +8,9 @@
 5. improve page response speed.
 6. a lot of places is already modify.
 
+#### Bug
+logo image no suitable
+
 #### Thanks helper
 thanks to [JclMiku](https://github.com/JclMiku)
 
@@ -69,6 +72,9 @@ Change Social Link 
 
 #### 鸣谢
 感谢JclMiku帮忙 [JclMiku](https://github.com/JclMiku)
+
+#### 存在的Bug
+logo image图片不能自适应
 
 #### 下一步添加min.css框架，去掉原有的css,需要一些时间。
 
