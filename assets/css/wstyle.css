@@ -1,9 +1,6 @@
 ﻿@charset "utf-8";
 *{margin:auto;padding:auto;list-style-type:none;}
-a,img{border:0;    margin: auto;
-    width: auto;
-    height: 100%;
-}
+a,img{border:0;}
 /* side */
 .side{position:fixed;width:54px;height:275px;right:30px;top:214px;z-index:100;}
 .side ul li{width:54px;height:54px;float:left;position:relative;border-bottom:1px solid #444;}
