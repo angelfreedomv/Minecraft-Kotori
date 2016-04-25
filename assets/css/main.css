@@ -23,10 +23,9 @@
 html {
     height: 100%;
     max-height: 100%;
-    font-size: 62.5%;
+    /* font-size: 62.5%; */
     overflow-x: hidden;
     overflow-y: scroll;
-    
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -38,11 +37,10 @@ body {
     height: 100%;
     max-height: 100%;
     letter-spacing: 0.01rem;
-    font-size: 2rem;
+    font-size: 1rem;
     background: #eceff1;/*f2f2f2*/
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-    
+    /* font-weight: 300; */
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
@@ -82,7 +80,7 @@ h4, h5, h6 {
 }
 
 h1 {
-    font-size: 5rem;
+    /* font-size: 5rem; */
     letter-spacing: -2px;
     text-indent: -3px;
 }
@@ -204,7 +202,7 @@ iframe {
     left: 0;
     width: 100%;
     height: 70px;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.8);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     z-index: 2;
 }
@@ -228,21 +226,21 @@ iframe {
 }
 
 .cd-header #cd-logo img {
-    width:60px;height:60px; /*ÉèÖÃÍ¼ÏñµÄ³¤ºÍ¿í£¬ÕâÀïÒª¸ù¾Ý×Ô¼ºµÄÆÀÂÛ¿òÇé¿ö¸ü¸Ä*/  
-    border-radius: 30px;/*ÉèÖÃÍ¼ÏñÔ²½ÇÐ§¹û,ÔÚÕâÀïÎÒÖ±½ÓÉèÖÃÁË³¬¹ýwidth/2µÄÏñËØ£¬¼´ÎªÔ²ÐÎÁË*/ 
-    -webkit-border-radius: 30px;/*Ô²½ÇÐ§¹û£º¼æÈÝwebkitä¯ÀÀÆ÷*/  
+    width:60px;height:60px; /*ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½ï¿½Ä³ï¿½ï¿½Í¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/  
+    border-radius: 30px;/*ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½Ô²ï¿½ï¿½Ð§ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë³ï¿½ï¿½ï¿½width/2ï¿½ï¿½ï¿½ï¿½ï¿½Ø£ï¿½ï¿½ï¿½ÎªÔ²ï¿½ï¿½ï¿½ï¿½*/ 
+    -webkit-border-radius: 30px;/*Ô²ï¿½ï¿½Ð§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½webkitï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/  
     -moz-border-radius:50px;   
-    box-shadow: inset 0 -1px 0 #3333sf;/*ÉèÖÃÍ¼ÏñÒõÓ°Ð§¹û*/  
+    box-shadow: inset 0 -1px 0 #3333sf;/*ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½Ó°Ð§ï¿½ï¿½*/  
     -webkit-box-shadow: inset 0 -1px 0 #3333sf;   
     -webkit-transition: 0.4s;      
     -webkit-transition: -webkit-transform 0.4s ease-out;   
-    transition: transform 0.4s ease-out;/*±ä»¯Ê±¼äÉèÖÃÎª0.4Ãë(±ä»¯¶¯×÷¼´ÎªÏÂÃæµÄÍ¼ÏñÐý×ª360¶Á£©*/  
+    transition: transform 0.4s ease-out;/*ï¿½ä»¯Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª0.4ï¿½ï¿½(ï¿½ä»¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½×ª360ï¿½ï¿½ï¿½ï¿½*/  
     -moz-transition: -moz-transform 0.4s ease-out;
 }   
-.cd-header #cd-logo img:hover{/*ÉèÖÃÊó±êÐü¸¡ÔÚÍ·ÏñÊ±µÄCSSÑùÊ½*/  
+.cd-header #cd-logo img:hover{/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í·ï¿½ï¿½Ê±ï¿½ï¿½CSSï¿½ï¿½Ê½*/  
     box-shadow: 0 0 10px #fff; rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);   
     -webkit-box-shadow: 0 0 10px #fff; rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);   
-    transform: rotateZ(360deg);/*Í¼ÏñÐý×ª360¶È*/  
+    transform: rotateZ(360deg);/*Í¼ï¿½ï¿½ï¿½ï¿½×ª360ï¿½ï¿½*/  
     -webkit-transform: rotateZ(360deg);   
     -moz-transform: rotateZ(360deg);   
 }
@@ -273,6 +271,7 @@ iframe {
     line-height: 40px;
     float: right;
     margin-right: 10px;
+    line-height: 2.5em;
 }
 
 .cd-main-nav li {
@@ -640,10 +639,10 @@ iframe {
 /* ====== Footer ====== */
 
 .footer {
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     bottom: 0;
-    height: 100px;
+    /* height: 100px; */
     width: 100%;
 }
 
@@ -661,7 +660,7 @@ iframe {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    height: 500px;
+    height: 100%;
 }
 
 .postHeader {
@@ -734,21 +733,21 @@ iframe {
 }
 
 .author-image img {
-    width:100px;height:100px; /*ÉèÖÃÍ¼ÏñµÄ³¤ºÍ¿í£¬ÕâÀïÒª¸ù¾Ý×Ô¼ºµÄÆÀÂÛ¿òÇé¿ö¸ü¸Ä*/  
-    border-radius: 50px;/*ÉèÖÃÍ¼ÏñÔ²½ÇÐ§¹û,ÔÚÕâÀïÎÒÖ±½ÓÉèÖÃÁË³¬¹ýwidth/2µÄÏñËØ£¬¼´ÎªÔ²ÐÎÁË*/  
-    -webkit-border-radius: 50px;/*Ô²½ÇÐ§¹û£º¼æÈÝwebkitä¯ÀÀÆ÷*/  
+    width:100px;height:100px; /*ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½ï¿½Ä³ï¿½ï¿½Í¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/  
+    border-radius: 50px;/*ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½Ô²ï¿½ï¿½Ð§ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë³ï¿½ï¿½ï¿½width/2ï¿½ï¿½ï¿½ï¿½ï¿½Ø£ï¿½ï¿½ï¿½ÎªÔ²ï¿½ï¿½ï¿½ï¿½*/  
+    -webkit-border-radius: 50px;/*Ô²ï¿½ï¿½Ð§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½webkitï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/  
     -moz-border-radius:50px;   
-    box-shadow: inset 0 -1px 0 #3333sf;/*ÉèÖÃÍ¼ÏñÒõÓ°Ð§¹û*/  
+    box-shadow: inset 0 -1px 0 #3333sf;/*ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½Ó°Ð§ï¿½ï¿½*/  
     -webkit-box-shadow: inset 0 -1px 0 #3333sf;   
     -webkit-transition: 0.4s;      
     -webkit-transition: -webkit-transform 0.4s ease-out;   
-    transition: transform 0.4s ease-out;/*±ä»¯Ê±¼äÉèÖÃÎª0.4Ãë(±ä»¯¶¯×÷¼´ÎªÏÂÃæµÄÍ¼ÏñÐý×ª360¶Á£©*/  
+    transition: transform 0.4s ease-out;/*ï¿½ä»¯Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª0.4ï¿½ï¿½(ï¿½ä»¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½×ª360ï¿½ï¿½ï¿½ï¿½*/  
     -moz-transition: -moz-transform 0.4s ease-out;   
 }    
-.author-image img:hover{/*ÉèÖÃÊó±êÐü¸¡ÔÚÍ·ÏñÊ±µÄCSSÑùÊ½*/  
+.author-image img:hover{/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í·ï¿½ï¿½Ê±ï¿½ï¿½CSSï¿½ï¿½Ê½*/  
     box-shadow: 0 0 20px #fff; rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);   
     -webkit-box-shadow: 0 0 20px #fff; rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);   
-    transform: rotateZ(360deg);/*Í¼ÏñÐý×ª360¶È*/  
+    transform: rotateZ(360deg);/*Í¼ï¿½ï¿½ï¿½ï¿½×ª360ï¿½ï¿½*/  
     -webkit-transform: rotateZ(360deg);   
     -moz-transform: rotateZ(360deg);   
 }
@@ -814,7 +813,7 @@ iframe {
 }
 
 .page-number {
-    display: none;
+    /* display: none; */
 }
 
 /* ==========================================================================
@@ -1131,6 +1130,227 @@ iframe {
         transform: scale(1);
     }
 }
+
+.banner-infomation {
+   position: absolute;
+   bottom:15%;
+   left:60px;
+   color:#fff;
+   background-color: rgba(255,255,255,0.5);
+   padding: 30px;
+ }
+ 
+ .footer {
+    margin-top: 550px;
+    height: 120px;
+    padding: 40px;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+ }
+
+	#header {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-justify-content: space-between;
+		-webkit-justify-content: space-between;
+		-ms-justify-content: space-between;
+		justify-content: space-between;
+		background-color: rgba(255, 255, 255, 225);
+		/* border-bottom: solid 1px rgba(160, 160, 160, 0.3); */
+		height: 3.5em;
+		left: 0;
+		line-height: 3.5em;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 10000;
+	}
+
+		#header a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		#header ul {
+			list-style: none;
+			margin: 0;
+			padding-left: 0;
+		}
+
+			#header ul li {
+				display: inline-block;
+				padding-left: 0;
+			}
+
+		#header h1 {
+			height: inherit;
+			line-height: inherit;
+			padding: 0 0 0 0.3em;
+			white-space: nowrap;
+			font-size: 30px;
+		}
+
+			#header h1 a {
+				font-size: 0.7em;
+			}
+
+		#header .links {
+			-moz-flex: 1;
+			-webkit-flex: 1;
+			-ms-flex: 1;
+			flex: 1;
+			border-left: solid 1px rgba(160, 160, 160, 0.3);
+			height: inherit;
+			line-height: inherit;
+			margin-left: 1.5em;
+			overflow: hidden;
+			padding-left: 1.5em;
+		}
+
+			#header .links ul li {
+				border-left: solid 1px rgba(160, 160, 160, 0.3);
+				line-height: 1;
+				margin-left: 1em;
+				padding-left: 1em;
+			}
+
+				#header .links ul li:first-child {
+					border-left: 0;
+					margin-left: 0;
+					padding-left: 0;
+				}
+
+				#header .links ul li a {
+					border-bottom: 0;
+					font-family: "Raleway", Helvetica, sans-serif;
+					font-size: 0.7em;
+					font-weight: 400;
+					letter-spacing: 0.25em;
+					text-transform: uppercase;
+				}
+
+		#header .main {
+			height: inherit;
+			line-height: inherit;
+			text-align: right;
+		}
+
+			#header .main ul {
+				height: inherit;
+				line-height: inherit;
+			}
+
+				#header .main ul li {
+					border-left: solid 1px rgba(160, 160, 160, 0.3);
+					height: inherit;
+					line-height: inherit;
+					white-space: nowrap;
+				}
+
+					#header .main ul li > * {
+						display: block;
+						float: left;
+					}
+
+					#header .main ul li > a {
+						text-decoration: none;
+						border-bottom: 0;
+						color: #aaaaaa;
+						overflow: hidden;
+						position: relative;
+						text-indent: 4em;
+						width: 4em;
+					}
+
+						#header .main ul li > a:before {
+							-moz-osx-font-smoothing: grayscale;
+							-webkit-font-smoothing: antialiased;
+							font-family: FontAwesome;
+							font-style: normal;
+							font-weight: normal;
+							text-transform: none !important;
+						}
+
+						#header .main ul li > a:before {
+							display: block;
+							height: inherit;
+							left: 0;
+							line-height: inherit;
+							position: absolute;
+							text-align: center;
+							text-indent: 0;
+							top: 0;
+							width: inherit;
+						}
+
+		#header form {
+			margin: 0;
+		}
+
+			#header form input {
+				display: inline-block;
+				height: 2.5em;
+				position: relative;
+				top: -2px;
+				vertical-align: middle;
+			}
+
+		#header #search {
+			-moz-transition: all 0.5s ease;
+			-webkit-transition: all 0.5s ease;
+			-ms-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+			max-width: 0;
+			opacity: 0;
+			overflow: hidden;
+			padding: 0;
+			white-space: nowrap;
+		}
+
+			#header #search input {
+				width: 12em;
+			}
+
+			#header #search.visible {
+				max-width: 12.5em;
+				opacity: 1;
+				padding: 0 0.5em 0 0;
+			}
+
+		@media screen and (max-width: 980px) {
+
+			#header .links {
+				display: none;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#header {
+				height: 2.75em;
+				line-height: 2.75em;
+			}
+
+				#header h1 {
+					padding: 0 0 0 1em;
+				}
+
+				#header .main .search {
+					display: none;
+				}
+
+		}
+ body {
+		padding-top: 3.5em;
+	}
+    
 /* ==========================================================================
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
