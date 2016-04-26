@@ -108,7 +108,7 @@ h6 {
 
 a {
     color: #0e9ec2;
-    
+    font-size: 25px
     -webkit-transition: color ease 0.3s;
     -moz-transition: color ease 0.3s;
     -ms-transition: color ease 0.3s;
@@ -605,10 +605,14 @@ iframe {
 
 .post-meta a {
     color: #9EABB3;
+	font-size: 16px;
+    font-family: sans-serif;
 }
 
 .post-meta img {
     margin-right: 5px;
+	height: 100%;
+    width: 50px;
 }
 
 .tags {
