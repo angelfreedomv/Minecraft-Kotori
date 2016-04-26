@@ -57,6 +57,13 @@ Change Social Link 
 		    </li>
 	</ul>
 ```
+Change Menu Link 
+  Replace  to your menu link (in navigation.hbs)
+```html
+       {{#foreach navigation}}
+<li><a href="{{url absolute="true"}}" >{{label}}</a></li>
+     {{/foreach}}
+```
 ### Demo image:
 ![1](/assets/img/1.png)
 ![2](/assets/img/2.png)
