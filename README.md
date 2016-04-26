@@ -1,4 +1,4 @@
-## Minecraft-Kotori Ghost Theme 1.0 release
+## Minecraft-Kotori Ghost Theme 1.0.1 release
 
 #### Install  
 1. please modify `/post.hbs`   `disqus_shortname = ''` content for your disqus ID  
@@ -112,8 +112,8 @@ main.js的$不能为read
 
 ### 历史版本
 1. Angel-Lite Ghost Theme 0.1 beta
-1. Angel-Lite Ghost Theme 0.2 release
-
+2. Angel-Lite Ghost Theme 0.2 release
+3. Minecraft-Kotori Ghost Theme 1.0 release
 ##此主题基于Kular框架上添加，去掉不能自适应的菜单。
 
 =====
