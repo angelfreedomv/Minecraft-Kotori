@@ -69,7 +69,7 @@ Change Menu Link 
 ![2](/assets/img/2.png)
 ![3](/assets/img/3.png)
 
-## Minecraft-Kotori主题 1.0正式版
+## Minecraft-Kotori主题 1.0.1正式版
 
 #### 中文说明
 1. 去掉一些js和不能自适应页面的的菜单。
@@ -114,6 +114,7 @@ main.js的$不能为read
 1. Angel-Lite Ghost Theme 0.1 beta
 2. Angel-Lite Ghost Theme 0.2 release
 3. Minecraft-Kotori Ghost Theme 1.0 release
+
 ##此主题基于Kular框架上添加，去掉不能自适应的菜单。
 
 =====
